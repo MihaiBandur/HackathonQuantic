@@ -1,0 +1,18 @@
+graph MaxCutGreedy {
+  node [style=filled, fontname="Arial"];
+  0 [fillcolor=lightblue];
+  1 [fillcolor=lightcoral];
+  2 [fillcolor=lightcoral];
+  3 [fillcolor=lightblue];
+  4 [fillcolor=lightblue];
+  5 [fillcolor=lightcoral];
+  0 -- 1 [color=black, style=bold];
+  0 -- 2 [color=black, style=bold];
+  1 -- 2 [color=gray, style=dashed];
+  1 -- 3 [color=black, style=bold];
+  2 -- 3 [color=black, style=bold];
+  2 -- 4 [color=black, style=bold];
+  3 -- 4 [color=gray, style=dashed];
+  3 -- 5 [color=black, style=bold];
+  4 -- 5 [color=black, style=bold];
+}
