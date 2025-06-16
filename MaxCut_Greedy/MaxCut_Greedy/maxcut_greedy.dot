@@ -1,0 +1,22 @@
+graph MaxCut {
+  node [style=filled, fontname="Arial"];
+  0 [fillcolor=lightblue];
+  1 [fillcolor=lightcoral];
+  2 [fillcolor=lightblue];
+  3 [fillcolor=lightcoral];
+  4 [fillcolor=lightcoral];
+  5 [fillcolor=lightblue];
+  6 [fillcolor=lightcoral];
+  0 -- 1 [color=black, style=bold];
+  0 -- 3 [color=black, style=bold];
+  0 -- 6 [color=black, style=bold];
+  1 -- 2 [color=black, style=bold];
+  1 -- 3 [color=gray, style=dashed];
+  2 -- 3 [color=black, style=bold];
+  2 -- 4 [color=black, style=bold];
+  3 -- 4 [color=gray, style=dashed];
+  3 -- 5 [color=black, style=bold];
+  4 -- 5 [color=black, style=bold];
+  4 -- 6 [color=gray, style=dashed];
+  5 -- 6 [color=black, style=bold];
+}
